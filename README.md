@@ -11,8 +11,8 @@ Experimental **zero code** compile time DTO generator using [Source Generators](
 # Example
 | Screenshot  | Link | Description |
 | ---------------- | --- | ---------- |
-| ![Station class](https://i.imgur.com/gKT2xuh.png) | [Link](https://github.com/zeshan321/DTOGenerator/blob/master/Demo/WeatherForecast.cs) | This will create two DTOs "StationDTO" and "StationWithNoNameDTO". "Name" will be excluded in "StationWithNoNameDTO" and "Level" will be excluded in all. |
-| ![WeatherForcast class](https://i.imgur.com/OAIIy5a.png) | [Link](https://github.com/zeshan321/DTOGenerator/blob/master/Demo/Station.cs) | This will create two DTOs "WeatherForecastDTO" and "TestingWeather". "TemperatureF" will be excluded in all DTOs. "Summary" will be excluded in the "TestingWeather" DTO. "StationWithNoNameDTO" will be used in "TestingWeather" but in "WeatherForecastDTO" it will use the default "StationDTO". |
+| ![Station class](https://i.imgur.com/gKT2xuh.png) | [Link](https://github.com/zeshan321/DTOGenerator/blob/master/Demo/Station.cs) | This will create two DTOs "StationDTO" and "StationWithNoNameDTO". "Name" will be excluded in "StationWithNoNameDTO" and "Level" will be excluded in all. |
+| ![WeatherForcast class](https://i.imgur.com/OAIIy5a.png) | [Link](https://github.com/zeshan321/DTOGenerator/blob/master/Demo/WeatherForecast.cs) | This will create two DTOs "WeatherForecastDTO" and "TestingWeather". "TemperatureF" will be excluded in all DTOs. "Summary" will be excluded in the "TestingWeather" DTO. "StationWithNoNameDTO" will be used in "TestingWeather" but in "WeatherForecastDTO" it will use the default "StationDTO". |
 
 # Example of generated classes from above
 ```csharp
