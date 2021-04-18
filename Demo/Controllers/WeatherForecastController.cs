@@ -37,12 +37,6 @@ namespace Demo.Controllers
                     {
                         Name = rng.Next(-1000, 1000).ToString(),
                         Level = rng.Next(-20, 55)
-                    },
-                    Test = new Zetter()
-                    {
-                        FirstName = "Zeshan",
-                        LastName = "Aslam",
-                        Age = 22
                     }
                 })
                 .Select(s => new WeatherForecastDTO().Map(s))
@@ -62,12 +56,6 @@ namespace Demo.Controllers
                     {
                         Name = rng.Next(-1000, 1000).ToString(),
                         Level = rng.Next(-20, 55)
-                    },
-                    Test = new Zetter()
-                    {
-                        FirstName = "Zeshan",
-                        LastName = "Aslam",
-                        Age = 22
                     }
                 })
                 .Select(s => new TestingWeather().Map(s))

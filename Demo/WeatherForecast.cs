@@ -18,8 +18,5 @@ namespace Demo
 
         [UseExistingDto("TestingWeather > StationWithNoNameDTO")]
         public Station Station { get; set; }
-
-        [UseExistingDto]
-        public Zetter Test { get; set; }
     }
 }
