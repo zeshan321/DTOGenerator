@@ -1,5 +1,5 @@
 # DTOGenerator
-Experimental **zero code** compile time DTO generator using [Source Generators](https://devblogs.microsoft.com/dotnet/introducing-c-source-generators/) in C#.
+Experimental **zero code** compile time DTO generator and mapper using [Source Generators](https://devblogs.microsoft.com/dotnet/introducing-c-source-generators/) in C#.
 
 # Attributes
 | Attribute  | Description | Notes |
